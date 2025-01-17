@@ -1,0 +1,119 @@
+#header{
+    background-image: url("https://images.pexels.com/photos/5040794/pexels-photo-5040794.jpeg");
+    background-size: cover;
+    background-position: 50% 60%;
+    height: 500px; 
+    max-width: 100%;
+    margin-bottom: 70px;
+}
+#headertekst{
+    color: #495e54;
+    position: absolute;
+    top: 360px;
+    left: 200px;
+    
+}
+.navbar-brand{
+    color: #ffffff;
+    font-size: 50px;
+
+}
+#knop{
+    position: absolute;
+    top: 460px;
+    left: 200px; 
+}
+.navigatiebar{
+    background-color: #495e54;
+}
+.nav-link{
+    color:#ffffff;
+}
+a{
+    text-decoration: none;
+    color:#a1a1a1;
+}
+.titeltekst{
+    font-size: 50px;
+    color: #ffffff;  
+}
+.ondertiteltekst{
+    font-size: 20px;
+    color: #ffffff;   
+}
+#plaatje{
+    text-align: center;
+    object-fit: cover;
+    
+    width: 300px;
+    height: 300px;
+    position: 50% 50%;
+}
+h1{
+    color: #84af73;
+}
+#diensten{
+    padding: 50px;
+}
+#dienst1{
+    background-color:#cbdfd5;
+    padding: 40px;
+}
+#dienst2{
+    background-color:#8c9c94;
+    padding: 40px;
+}
+#dienst3{
+    background-color:#5b7367;
+    padding: 40px;
+}
+.titeltekstfooter{
+    font-size: 50px;
+    color: #000000;  
+}
+.ondertiteltekstfooter{
+    font-size: 20px;
+    color: #000000;
+}
+footer{
+    background-color: #cbdfd5;
+    padding: 50px;
+    width: 100%;
+    text-align: center;
+}
+.container{
+    padding: 40px;
+}
+#plaatjecontainer{
+    text-align: center;
+}
+#plaatjecontainer2{
+    text-align: center;
+}
+#kleineplaatjes{
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    position: 50% 50%;
+}
+@media(max-width: 767px){
+    #headertekst{
+        position: absolute;
+        top: 360px;
+        left: 30px;
+        
+    }
+    #knop{
+        position: absolute;
+        top: 460px;
+        left: 30px;
+    }
+}
+
+
+    
+
+
+
+
+
